@@ -205,7 +205,7 @@ var _ = Describe("discordRPC", func() {
 				pdk.PDKMock.On("Log", mock.Anything, mock.Anything).Maybe()
 				err := r.OnBinaryMessage(websocket.OnBinaryMessageRequest{
 					ConnectionID: "testuser",
-					Data:         "AQID", // base64 encoded [0x01, 0x02, 0x03]
+					Data:         []byte("AQID"), // base64 encoded [0x01, 0x02, 0x03]
 				})
 				Expect(err).ToNot(HaveOccurred())
 			})
