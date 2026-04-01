@@ -34,11 +34,11 @@ const (
 )
 
 const (
-	navidromeWebsiteURL = "https://www.navidrome.org"
+	navidromeWebsiteURL = "https://navi.sillyangel.dev"
 
 	// navidromeLogoURL is the small overlay image shown in the bottom-right of the album art.
 	// The file is stored in the plugins' GitHub repository so Discord can fetch it as an external asset.
-	navidromeLogoURL = "https://raw.githubusercontent.com/navidrome/website/refs/heads/master/assets/icons/logo.webp"
+	navidromeLogoURL = "https://avatars.githubusercontent.com/u/50461810?v=4"
 )
 
 // Activity name display options
