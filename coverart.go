@@ -10,7 +10,7 @@ import (
 	"github.com/navidrome/navidrome/plugins/pdk/go/scrobbler"
 )
 
-// Cache TTLs for cover art lookups
+// Cache TTLs for cover art lookups 
 const (
 	caaCacheTTLHit  int64 = 24 * 60 * 60 // 24 hours for resolved CAA artwork
 	caaCacheTTLMiss int64 = 4 * 60 * 60  // 4 hours for CAA misses
