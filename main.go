@@ -33,10 +33,10 @@ const (
 )
 
 const (
-	navidromeWebsiteURL = "https://www.navidrome.org"
+	navidromeWebsiteURL = "https://sillyangel.dev"
 
 	// navidromeLogoURL is used as fallback large image when track artwork is unavailable.
-	navidromeLogoURL = "https://raw.githubusercontent.com/navidrome/website/refs/heads/master/assets/icons/logo.webp"
+	navidromeLogoURL = "https://avatars.githubusercontent.com/u/50461810?v=4"
 
 	pauseIconURL = "https://raw.githubusercontent.com/navidrome/discord-rich-presence-plugin/800bfacfb8e85c33692373b10ddbd27388f262d2/assets/pause.png"
 )
